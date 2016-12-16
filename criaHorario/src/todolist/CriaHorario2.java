@@ -236,6 +236,31 @@ public class CriaHorario2 {
         h.setFim(2016, 11, 14, 16, 30);
         aulas.addHora(h);
         
+        //PWEB
+        h = new HoraAula("Programação Web", "1", "L1.8", 1);
+        h.setInicio(2016, 11, 12, 10, 30);
+        h.setFim(2016, 11, 12, 13, 30);
+        aulas.addHora(h);
+        h = new HoraAula("Programação Web", "1", "A1.2", 0);
+        h.setInicio(2016, 11, 13, 17, 30);
+        h.setFim(2016, 11, 13, 18, 30);
+        aulas.addHora(h);
+        h = new HoraAula("Programação Web", "1", "A1.2", 0);
+        h.setInicio(2016, 11, 15, 17, 0);
+        h.setFim(2016, 11, 15, 18, 0);
+        aulas.addHora(h);
+        h = new HoraAula("Programação Web", "2", "L1.3", 1);
+        h.setInicio(2016, 11, 13, 14, 0);
+        h.setFim(2016, 11, 13, 17, 0);
+        aulas.addHora(h);
+        h = new HoraAula("Programação Web", "3", "L1.8", 1);
+        h.setInicio(2016, 11, 15, 14, 0);
+        h.setFim(2016, 11, 15, 17, 0);
+        aulas.addHora(h);
+        h = new HoraAula("Programação Web", "4", "L1.8", 1);
+        h.setInicio(2016, 11, 13, 14, 0);
+        h.setFim(2016, 11, 13, 17, 0);
+        aulas.addHora(h);
         
         guardaFicheiro(aulas);
         String NOME_FICHEIRO_HORARIOS = "HORARIOS";
