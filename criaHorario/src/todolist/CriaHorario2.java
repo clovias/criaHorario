@@ -444,10 +444,10 @@ public class CriaHorario2 {
         
         h = new HoraAula("Gestão de Projeto de Software", "2", "L1.2", 1);
         h.setInicio(2016, 11, 16, 21, 00);
-        h.setFim(2016, 11, 16, 00, 00);
+        h.setFim(2016, 11, 16, 23, 59);
         aulas.addHora(h);
         
-        
+        aulas.addDica("Gestão de Projeto de Software", "Dica de GPS", "Apresenta tudo a tempo e horas");
         //2 Jorge>
         
         guardaFicheiro(aulas);
